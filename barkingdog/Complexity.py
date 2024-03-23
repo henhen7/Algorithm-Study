@@ -30,7 +30,7 @@ print(func3(756580036))
 #Q4. 시간복잡도: O(lgN)
 def func4(N):
     val = 1
-    while 2 * val <= N: #끝나는 조건을 알 때 반복문
+    while 2 * val <= N: #while: 끝나는 조건을 알 때 반복문
         val *= 2
     return val
 
