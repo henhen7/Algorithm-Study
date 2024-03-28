@@ -32,3 +32,4 @@ print(c)
 n = input()
 n = int(n)
 print(n)
+
