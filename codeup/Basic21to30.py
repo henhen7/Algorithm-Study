@@ -1,7 +1,7 @@
 #21
-s = input()
-for i in range(5):
-    print(s[i])
+#s = input()
+#for i in range(5):
+#print(s[i])
 
 #22
 ymd = input()
