@@ -3,11 +3,11 @@ a, b = map(int, input().split())
 print(a != b)
 
 #52
-a = int(input())
+a = input()
 print(bool(a))
 
 #53
-a = bool(int(input()))
+a = bool(input())
 print(not a)
 
 #54
