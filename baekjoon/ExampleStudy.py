@@ -21,3 +21,15 @@ arr = [0]*26
 for i in s:
     arr[ord(i)-97] += 1 #ord('a'): 97이므로 97을 빼서 0으로 만들어 줌
 print(*arr)
+
+#2798
+n,m=map(int,input().split())
+l=list(map(int,input().split()))
+s=0
+for i in range(0,n-2):
+    for j in range(i+1,n-1):
+        for k in range(j+1,n):
+            r=l[i]+l[j]+l[k]
+            if m>=r and r>s:
+                s=r
+print(s)
