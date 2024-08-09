@@ -20,7 +20,5 @@ def function():
             ans.pop()
             visited[i] = 0
 
-
-
 ans = []
 function()
