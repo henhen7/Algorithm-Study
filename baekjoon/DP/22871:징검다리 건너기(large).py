@@ -44,7 +44,9 @@ dp = [0] + [INF] * (n - 1)
 
 for i in range(1, n):
     for j in range(0, i):
+        # 이전 위치까지의 최소 힘과 현재 계산한 힘 중 큰 값
         power = max((i - j) * (1 + abs(A[i] - A[j])), dp[j])
         dp[i] = min(dp[i], power)
 
+# dp[-1]은 마지막 위치까지 도달하는 데 필요한 힘
 print(dp[-1])
